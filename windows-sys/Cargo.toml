@@ -1,0 +1,13 @@
+[package]
+name = "windows-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.windows-sys]
+path = "/git/windows-rs/crates/libs/sys"
+features = [
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_UI_WindowsAndMessaging",
+]
